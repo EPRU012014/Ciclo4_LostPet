@@ -1,0 +1,11 @@
+.carousel-inner img{
+    
+    max-height: 70vh;
+   
+  
+    }
+
+.carousel-inner .texto1{
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+}

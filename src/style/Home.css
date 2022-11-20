@@ -1,0 +1,9 @@
+.TextoInicial{
+    color:rgb(255,87,51,0.85)    
+   
+  }
+  .FondoHome{
+    background: rgb(17,2,61);
+    background: linear-gradient(360deg, rgba(17,2,61,1) 21%, rgba(20,4,70,1) 33%, rgba(106,33,133,1) 58%, rgba(0,0,0,1) 81%);
+  }
+  

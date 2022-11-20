@@ -1,0 +1,23 @@
+.BarraDeNav {
+    font-size: 24px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.navbar .nav-link{
+    font-size: 20px;
+    color: rgb(175, 64, 142);
+}
+
+.navbar .navbar-brand{
+    font-size: 20px;
+    color: rgb(175, 64, 142)
+}
+
+.navbar .nav-link:hover{
+    color: white;
+}
+
+.navbar .navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,14 @@
+.container1{
+    background: linear-gradient(360deg, rgba(17,2,61,1) 21%, rgba(20,4,70,1) 33%, rgba(106,33,133,1) 58%, rgba(0,0,0,1) 81%);
+}
+
+.container .perris{
+    width: 40vh;
+    height: 40vh;
+}
+
+div.container{
+    height: 47vw;
+    margin: 0.1em;
+    max-width: 99%;
+}
