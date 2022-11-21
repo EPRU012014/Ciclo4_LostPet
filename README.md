@@ -48,4 +48,4 @@ Participantes y creadores
 •	Por su acompañamiento en todo el proceso de realización de este proyecto.
 •	y a todos los que nos apoyaron en este proceso 🤓.
 ______________
-⌨️ con ❤️ por Estudiantes de la Universidad Tecnológica de Pereira, Misión Tic 2022 Ciclo IV.# Getting Started with Create React App
+⌨️ con ❤️ por Estudiantes de la Universidad Tecnológica de Pereira, Misión Tic 2022 Ciclo IV.
