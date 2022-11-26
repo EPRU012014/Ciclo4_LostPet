@@ -1,24 +1,18 @@
 import {
   BrowserRouter,
-  BrowserRouter as Router,
-  Redirect,
   Route,
-  Switch,
-  Routes,
+  Routes
 } from "react-router-dom";
-import { Link } from "react-router-dom";
 import React from "react";
 import "./style/App.css";
-import BarraDeNav from "./components/BarraDeNav";
-import Carrusele from "./components/Carrusele";
-import EsferasInfo from "./components/EsferasInfo";
-import LinkPolitica from "./components/LinkPolitica";
-import ListadoAdopcion from "./components/ListadoAdopcion";
-import Perrito from "./components/Perrito";
+
+
 import { InicioSesion } from "./pages/InicioSesion";
 import { Registro } from "./pages/Registro";
 import { Home } from "./pages/Home";
-import {Adopcion} from "./pages/Adopcion";
+import CrearPerro from "./pages/Adopcion";
+import EditPerrito from "./pages/Editar-perrito";
+import PerritoList from "./pages/Lista-perrito";
 
 function App() {
   return (
@@ -28,7 +22,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="inicioSesion" element={<InicioSesion />} />
           <Route path="registro" element={<Registro />} />
-          <Route path="adoptar" element={<Adopcion />} />
+          <Route path="adoptar" element={<CrearPerro />} />
+          <Route path="/perrito-list" element={<PerritoList />} />
+          <Route path="/edit-perrito/:id" element={<EditPerrito />} />
+          <Route path="/" element={<CrearPerro />} />
         </Routes>
       </div>
     </BrowserRouter>

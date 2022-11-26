@@ -12,7 +12,7 @@ function EsferasInfo (){
 
     return[
     
-        <div className="container mb-5">
+        <div className="container">
             <div className="FondoEsferas row">
             <div className="reglas col-md-4">
                 <div className="carde" onMouseEnter={() => setEsfera1(false)} onMouseLeave={() => setEsfera1(true)}>

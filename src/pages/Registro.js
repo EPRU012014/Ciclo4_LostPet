@@ -5,7 +5,7 @@ import BarraDeNav from '../components/BarraDeNav';
 
 function Registro(){
     return (
-<div class="container">
+<div class="container1">
         <div class="row"><BarraDeNav/>
             <div class="col-md-4"></div>
                 <div class="col-md-4">

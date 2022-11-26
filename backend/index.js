@@ -4,8 +4,8 @@ let cors = require("cors");
 let bodyParser = require("body-parser");
 
 // Ruta de Express
-const registroRoute = require("../backend/routes/registro.route");
-
+//const registroRoute = require("../backend/routes/registro.route");
+const perritoRoute = require("../backend/routes/perrito.route");
 // DB Config
 const db = require("../backend/database/db").mongoURI;
 // Connect to MongoDB from mLab
@@ -22,7 +22,7 @@ app.use(
   })
 );
 app.use(cors());
-app.use("/students", registroRoute);
+app.use("/perritos", perritoRoute);
 
 // PORT
 const port = process.env.PORT || 4000;

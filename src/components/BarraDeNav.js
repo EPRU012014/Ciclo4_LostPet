@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "../style/BarraDeNav.css";
-import { InicioSesion } from "../pages/InicioSesion";
-import { Registro } from "../pages/Registro";
-import { Home } from "../pages/Home";
-import { Adopcion } from "../pages/Adopcion";
+
  
 export default class BarraDeNav extends Component {
 
@@ -28,6 +25,12 @@ render(){
         </li>
         <li className="nav-item">
           <a className="nav-link" href="adoptar">Donar</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="perrito-list" >Listado de perritos</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/edit-perrito/:id" >Editar perritos</a>
         </li>
       </ul>
     </div>

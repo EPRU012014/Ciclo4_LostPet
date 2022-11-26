@@ -6,7 +6,6 @@ import Carrusele from "../components/Carrusele";
 import EsferasInfo from "../components/EsferasInfo";
 import LinkPolitica from "../components/LinkPolitica";
 import ListadoAdopcion from "../components/ListadoAdopcion";
-import Perrito from "../components/Perrito";
 import { InicioSesion } from "../pages/InicioSesion";
 import { Registro } from "../pages/Registro";
 
@@ -21,7 +20,9 @@ const InfoPerritos = [
 
 function Home() {
   return (
-    <div className="FondoHome">
+    
+    <div class="container1">
+      
       <BarraDeNav />
 
       <EsferasInfo />
@@ -34,6 +35,7 @@ function Home() {
 
       <ListadoAdopcion/>
     </div>
+  
   );
 }
 

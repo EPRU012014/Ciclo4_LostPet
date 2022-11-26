@@ -5,7 +5,7 @@ import BarraDeNav from '../components/BarraDeNav';
 function InicioSesion(){
     return (
         
-        <div className="container">
+        <div className="container1">
             <BarraDeNav />
         <div className="row">
             <div className="col-md-4"></div>
