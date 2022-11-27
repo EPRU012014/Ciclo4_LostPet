@@ -11,17 +11,23 @@ let  registroSchema = new Schema(
     name: {
       type: String,
     },
+    nameuser:{
+      type: String,
+    },
     email: {
       type: String,
     },
     dir: {
       type: String,
     },
-    password: {
+    contraseña: {
         type:String,
     },
+    edad:{
+      type:Number,
+    },
     telefono:{
-        type:String,
+        type:Number,
 
     }
 
