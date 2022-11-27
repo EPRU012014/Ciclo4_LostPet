@@ -33,7 +33,7 @@ let  registroSchema = new Schema(
 
   },
   {
-    collection: "users",
+    collection: "usuarios",
   }
 );
 module.exports = mongoose.model("Registro", registroSchema);

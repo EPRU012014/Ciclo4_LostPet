@@ -25,7 +25,7 @@ let  registroSchema = new Schema(
     },
   },
   {
-    collection: "users",
+    collection: "usuarios",
   }
 );
 
