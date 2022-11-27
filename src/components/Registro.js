@@ -33,7 +33,7 @@ function Registro(){
                 <div class="col-md-4">
                 <input type="number" class="inputado" placeholder="Edad"/>
                 </div>
-                <div class="col-md-4"><input type="number" class="inputado" placeholder="Número de contacto"/></div>
+                <div class="col-md-4"><input type="number" class="inputado" placeholder="Teléfono"/></div>
         </div>
         <div class="row mt-4">
                 <div class="col-md-4"></div>
